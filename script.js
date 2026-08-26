@@ -106,6 +106,7 @@ weddingMusic.play()
 }
 /* FIRST INTERACTION ANYWHERE */
 document.addEventListener("click", startMusic, { once: true });
+
 /* MUSIC BUTTON */
 musicButton.addEventListener("click", function (event) {
 event.stopPropagation();
